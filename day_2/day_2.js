@@ -27,7 +27,7 @@ Cosas a tener en cuenta y consejos:
 */
 
 countHours = (year, holidays) => holidays.reduce((acc, holiday) => {
-        if (new Date(`${year}-${holiday}`).getDay() !== 0 && new Date(`${year}-${holiday}`).getDay() !== 6) {
+        if (new Date(`${year}-${holiday}`).getDay() % 6 !== 0 ) {
             acc += 2;
         }
         return acc;
