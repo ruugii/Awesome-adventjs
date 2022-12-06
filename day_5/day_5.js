@@ -26,21 +26,21 @@ Crea un programa que le diga la suma más alta de regalos que podría repartir t
 */
 
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
-        let maxGiftsValid = 0
-        const cityLength = giftsCities.length
-            giftsCities.map( () => {
-                let cityCount = 0
-                let acc = 0
-                for(let idx = 0; idx < cityLength; idx++) {
-                    if(cityCount === maxCities) break
-                    if(acc + giftsCities[idx] <= maxGifts) {
-                        acc += giftsCities[idx]
-                        cityCount++
-                    }
+    let maxGiftsValid = 0
+    const cityLength = giftsCities.length
+        giftsCities.map( () => {
+            let cityCount = 0
+            let acc = 0
+            for(let i = 0; i < cityLength; i++) {
+                if(cityCount === maxCities) break
+                if(acc + giftsCities[i] <= maxGifts) {
+                    acc += giftsCities[i]
+                    cityCount++
                 }
-                if(acc > maxGiftsValid) maxGiftsValid = acc
-                giftsCities.push(giftsCities[0])
-                giftsCities.shift()
-            })
-        return maxGiftsValid
+            }
+            if(acc > maxGiftsValid) maxGiftsValid = acc
+            giftsCities.push(giftsCities[0])
+            giftsCities.shift()
+        })
+    return maxGiftsValid
 }
