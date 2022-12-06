@@ -4,13 +4,13 @@ Mis soluciones para los [25 días de retos con JavaScript](https://adventjs.dev/
 
 ## Retos:
 
-| Día | Reto                                                                               | Código                       | Arte       | Puntos    |
-| --- | ---------------------------------------------------------------------------------- | ---------------------------- | ---------- | ----------|
-| 1   | [¡Automatizando envolver regalos de navidad!](https://adventjs.dev/es/challenges/2022/1)                  | [solución](./day_1/day_1.js) | <img src="https://user-images.githubusercontent.com/37515166/204556732-51f4f61b-1372-4ee5-b0c3-4e629f94a770.png" width="50" height="50" /> | 132       |
-| 2   | [Nadie quiere hacer horas extra](https://adventjs.dev/challenges/02)         | [solución](./day_2/day_2.js) | <img src="https://user-images.githubusercontent.com/37515166/204558432-bc26b385-7d28-4bf7-8db6-82a9025b43fd.png" width="50" height="50" /> |132 (ahora con el 8º test, 122)           |
-| 3   | [¿Cuántas cajas de regalos puede llevar Papá Noel?](https://adventjs.dev/challenges/03)        | [solución](./day_3/day_3.js) |           |198
-| 4   | [Una caja dentro de otra caja y otra...](https://adventjs.dev/challenges/04)        | [solución](./day_4/day_4.js) |           |167
-| 5   | [---](https://adventjs.dev/challenges/05)           | [solución](./day_5/day_5.js) |
+| Día | Reto | Código | Puntos |
+| --- | ---- | ------ | ------ |
+| 1   | [¡Automatizando envolver regalos de navidad!](https://adventjs.dev/es/challenges/2022/1) | [solución](./day_1/day_1.js) | 132 |
+| 2   | [Nadie quiere hacer horas extra](https://adventjs.dev/challenges/02) | [solución](./day_2/day_2.js) | 132 (ahora con el 8º test, 122) |
+| 3   | [¿Cuántas cajas de regalos puede llevar Papá Noel?](https://adventjs.dev/challenges/03)        | [solución](./day_3/day_3.js) |198
+| 4   | [Una caja dentro de otra caja y otra...](https://adventjs.dev/challenges/04)        | [solución](./day_4/day_4.js) |167
+| 5   | [Optimizando viajes de Santa](https://adventjs.dev/challenges/05) | [solución](./day_5/day_5.js) | 152
 | 6   | [---](https://adventjs.dev/challenges/06)               | [solución](./day_6/day_6.js) |
 | 7   | [---](https://adventjs.dev/challenges/07)                    | [solución](./day_7/day_7.js) |
 | 8   | [---](https://adventjs.dev/challenges/08)               | [solución](./day_8/day_8.js) |
