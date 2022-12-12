@@ -17,23 +17,17 @@
     Como ves, los almacenes pueden tener el mismo regalo repetido varias veces. Pero, por más existencias que haya en un almacén, si no tenemos en los otros dos, debemos reponerlo para tener mejor distribución.
 */
 
+//80 puntos
+
 function getGiftsToRefill(a1, a2, a3) {
-    let allGifts = [...a1, ...a2, ...a3]
-    let buy = [];
-    for (let i = 0; i < allGifts.length; i++) {
-        let gift = allGifts.filter(g => g === allGifts[i])
-        if (gift.length < 3) {
-            buy.push(gift[0])
-        }
-    }
-    buy = buy.filter((a, b) => buy.indexOf(a) === b)
-    return buy
+    return [...new Set([...a1, ...a2, ...a3])].filter(e => a1.includes(e) + a2.includes(e) + a3.includes(e) === 1);
 }
 
-const a1 = ['bici', 'coche', 'bici', 'bici']
-const a2 = ['coche', 'bici', 'coche', 'muñeca']
-const a3 = ['bici', 'pc', 'pc']
-
-const gifts = getGiftsToRefill(a1, a2, a3)
-
-console.log('gifts to buy: ', gifts);
+// 110 puntos
+function getGiftsToRefill(a1, a2, a3) {
+    return [...new Set(a1), ...new Set(a2), ...new Set(a3)].filter((item, index, array) => {
+        const removedItem = [...array]
+        removedItem.splice(index, 1)
+        return !removedItem.includes(item)
+    })
+}

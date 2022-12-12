@@ -12,7 +12,7 @@ Mis soluciones para los [25 días de retos con JavaScript](https://adventjs.dev/
 | 4   | [Una caja dentro de otra caja y otra...](https://adventjs.dev/challenges/04)                        | [solución](./day_4/day_4.js)   |167 |
 | 5   | [Optimizando viajes de Santa](https://adventjs.dev/challenges/05)                                   | [solución](./day_5/day_5.js)   | 152 |
 | 6   | [Creando adornos navideños](https://adventjs.dev/challenges/06)                                     | [solución](./day_6/day_6.js)   | 160 |
-| 7   | [Haciendo inventario de regalos](https://adventjs.dev/challenges/07)                                | [solución](./day_7/day_7.js)   |  |
+| 7   | [Haciendo inventario de regalos](https://adventjs.dev/challenges/07)                                | [solución](./day_7/day_7.js)   | 110 |
 | 8   | [---](https://adventjs.dev/challenges/08)                                                           | [solución](./day_8/day_8.js)   |  |
 | 9   | [---](https://adventjs.dev/challenges/09)                                                           | [solución](./day_9/day_9.js)   |  |
 | 10  | [---](https://adventjs.dev/challenges/10)                                                           | [solución](./day_10/day_10.js) |  |
